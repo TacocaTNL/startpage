@@ -1,5 +1,7 @@
 <template>
-  <h1>Goede {{ dayPart }}, Jack</h1>
+    <div>
+        <h1>Goede {{ dayPart }}, Jack</h1>
+    </div>
 </template>
 
 <script>
@@ -47,5 +49,13 @@ export default {
 </script>
 
 <style scoped>
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+h1 {
+    text-align: center;
+}
 </style>

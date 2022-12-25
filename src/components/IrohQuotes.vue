@@ -1,10 +1,11 @@
 <template>
-  <div>{{currentQuote}}</div>
+  <div>
+    <div>{{currentQuote}}</div>
+  </div>
 </template>
 
 <script>
 import quotesData from "../assets/quotes.json";
-
 
 export default {
   name: 'IrohQuotes',
